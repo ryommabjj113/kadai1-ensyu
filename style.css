@@ -141,81 +141,34 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  header {
+
+  main {
     width: 100%;
+    margin: 50px auto;
+    padding: 20px auto;
+    display: block;
+    box-sizing: border-box;
   }
 
-  step-box {
-    width:100%;
-    margin-: 50px;
-    padding: 20px;
-    
-  }
-
-  step-img1 {
-    width: 90%;
+  .step-img1 {
     height: 150px;
-    
-    
+    background-image: url(img/flow01.png);
+    background-position: bottom;
+    background-size: cover;
   }
 
-  step-num {
-    width: 100%;
-  }
-  
-  title {
-    width: 100%;
-  }
-  
-  text {
-    width: 100%;
-  }
-  
-   step-box {
-    width: 100%;
-    padding: 20px;
-    
-  }
-
-  step-img2 {
-    width: 90%;
+  .step-img2 {
     height: 150px;
+    background-image: url(img/flow02.png);
+    background-position: bottom;
+    background-size: cover;
   }
 
-  step-num {
-    width: 100%;
-  }
-  
-  title {
-    width: 100%;
-  }
-  
-  text {
-    width: 100%;
-  }
-  
-   step-box {
-    width: 100%;
-    margin-: 50px;
-    padding: 20px;
-    
-  }
-
-  step-img3 {
-    width: 100%;
-  }
-
-  step-num {
-    width: 90%;
+  .step-img3 {
     height: 150px;
+    background-image: url(img/flow03.png);
+    background-position: bottom;
+    background-size: cover;
   }
-  
-  title {
-    width: 100%;
-  }
-  
-  text {
-    width: 100%;
-  }
-  
+
 }
